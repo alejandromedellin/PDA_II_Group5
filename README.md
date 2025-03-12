@@ -50,7 +50,8 @@ my_trading_app/ ├── app.py # Main Streamlit entry point ├── pysimfin
    cd <your-repo>
    
 2. Install dependencies
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 3. Obtain CSV Files
 
@@ -62,12 +63,12 @@ us-companies
 Place these files in the same directory as ETL.py (or adjust paths in ETL.py accordingly).
 
 4. Run ETL
-
-python ETL.py
+   ```bash
+   python ETL.py
 
 5. Train the ML Model
-
-python ML_MODEL.py
+   ```bash
+   python ML_MODEL.py
 
 Required CSV Files
 us-income-quarterly.csv
