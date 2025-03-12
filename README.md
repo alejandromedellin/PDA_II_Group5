@@ -110,7 +110,7 @@ Share the generated URL!
 License
 You can specify a license here (e.g., MIT, Apache 2.0). If you haven’t decided, you can remove this section.
 
-Contributors – [Samir Barakat, Joy Zhong, Nour Sewilam, Thomas Renwick, Pedro Alejandro Medellín, etc.]
+Contributors – [Samir Barakat, Joy Zhong, Nour Sewilam, Thomas Renwick, Pedro Alejandro Medellín]
 For major issues, please open an issue on the GitHub repository.
 
 
