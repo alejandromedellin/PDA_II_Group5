@@ -183,9 +183,9 @@ try:
 
         signals = predict_signals(transformed_trade_df)
 
-        st.subheader("Debugging Model Predictions")
-        st.write("### Model Predictions for Debugging")
-        st.dataframe(signals.head())  # existing line
+        #st.subheader("Debugging Model Predictions")
+        #st.write("### Model Predictions for Debugging")
+        #st.dataframe(signals.head())  # existing line
 
         # -----------------------------------------------------
         signals = predict_signals(transformed_trade_df)
