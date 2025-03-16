@@ -70,7 +70,7 @@ Place these files in the same directory as ETL.py (or adjust paths in ETL.py acc
    ```bash
    python ML_MODEL.py
 
-Required CSV Files
+## Required CSV Files
 us-income-quarterly.csv
 Quarterly income statement data from SimFin.
 
@@ -82,7 +82,7 @@ Company metadata (tickers, industries, etc.) from SimFin.
 
 Make sure these files are in the correct folder (the same folder as ETL.py by default), or modify the file paths in ETL.py if needed.
 
-Usage
+## Usage
 Once you have run the ETL and trained the model:
 
 streamlit run 1_Home.py
@@ -93,13 +93,13 @@ Launch the Streamlit application in your browser.
 Provide multipage navigation (Home, Go Live, optional Backtesting, etc.).
 Let you select tickers, date ranges, and view predictions/trading signals.
 
-Features
+## Features
 Price Data: View share prices for a selected ticker and date range, plus a line chart of closing prices.
 Financial Statements: Fetch the most recent or selected period’s statements (Income, Balance, Cash Flow, Derived).
 Trading Signals: Next-day BUY/SELL/HOLD predictions, displayed in a visually appealing format.
 Optional Backtesting: Evaluate a trading strategy historically to see how it would have performed.
 
-Deployment
+## Deployment
 To deploy on Streamlit Cloud:
 
 Push your code to a public GitHub repository.
@@ -110,5 +110,5 @@ Share the generated URL!
 License
 You can specify a license here (e.g., MIT, Apache 2.0). If you haven’t decided, you can remove this section.
 
-Contributors – [Samir Barakat, Joy Zhong, Nour Sewilam, Thomas Renwick, Pedro Alejandro Medellín]
+## Contributors – [Samir Barakat, Joy Zhong, Nour Sewilam, Thomas Renwick, Pedro Alejandro Medellín]
 For major issues, please open an issue on the GitHub repository.
