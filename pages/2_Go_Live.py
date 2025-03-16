@@ -195,15 +195,15 @@ try:
         # -----------------------------------------------------
         #st.subheader("Debugging Model Predictions")
 
-        #if not signals.empty:
-        #    st.write("### Model Predictions for Debugging")
-        #    st.dataframe(signals.head())  # Show raw prediction output
+        if not signals.empty:
+            st.write("### Model Predictions for Debugging")
+            st.dataframe(signals.head())  # Show raw prediction output
 
-        #    predicted_label = signals.iloc[0]["Predicted Signal"]
-        #    probability = signals.iloc[0]["Buy Probability"]
+            predicted_label = signals.iloc[0]["Predicted Signal"]
+            probability = signals.iloc[0]["Buy Probability"]
 
-        #    st.write(f"**Predicted Signal:** {predicted_label}")
-        #    st.write(f"**Buy Probability:** {probability:.4f}")
+            st.write(f"**Predicted Signal:** {predicted_label}")
+            st.write(f"**Buy Probability:** {probability:.4f}")
 
         # -----------------------------------------------------
 
