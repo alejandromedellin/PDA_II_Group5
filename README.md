@@ -85,7 +85,7 @@ Make sure these files are in the correct folder (the same folder as ETL.py by de
 Usage
 Once you have run the ETL and trained the model:
 
-streamlit run app.py
+streamlit run 1_Home.py
 
 This command will:
 
@@ -112,16 +112,3 @@ You can specify a license here (e.g., MIT, Apache 2.0). If you haven’t decided
 
 Contributors – [Samir Barakat, Joy Zhong, Nour Sewilam, Thomas Renwick, Pedro Alejandro Medellín]
 For major issues, please open an issue on the GitHub repository.
-
-
-### Explanation of Key Sections
-
-- **Overview**: Explains the app’s purpose and key functionalities.  
-- **Project Structure**: Provides a quick map of important files.  
-- **Installation**: Detailed steps for cloning, installing dependencies, and preparing data.  
-- **Required CSV Files**: Emphasizes that users must have `us-income-quarterly`, `us-shareprices-daily`, and `us-companies` from SimFin.  
-- **Usage**: Tells users how to run the ETL, train the model, and launch the Streamlit app.  
-- **Deployment**: Summarizes how to deploy on Streamlit Cloud.  
-- **License** & **Contact**: Common sections in a README for open-source projects.
-
-Feel free to tailor the text, rename sections, or adjust any details to match your project’s specifics. This should provide a solid foundation for a professional, user-friendly `README.md`.
